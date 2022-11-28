@@ -23,6 +23,13 @@
     text-transform:uppercase;
 }
 
+.icon-menu {
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 20px;
+}
+
 .menu-link {
     outline: none;
     text-decoration: none;
@@ -70,6 +77,14 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-size: 20px;
+}
+
 h5 {
     font-family: Montserrat;
     font-weight: 700;
@@ -79,6 +94,12 @@ h5 {
 }
 
 p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+
+li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: #2a2a2a;
@@ -146,11 +167,11 @@ b {
     font-size: 18px;
 }
 
-.zoom {
+.zoom-in {
     transition: transform .1s;
 }
 
-.zoom:hover {
+.zoom-in:hover {
     transform: scale(0.8);
 }
 

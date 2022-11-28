@@ -1,4 +1,74 @@
-.p-name {;
+.p-name {
     text-align: left;
     padding-bottom: 25px;
+}
+
+.descriptif {
+    text-align: left;
+    border:solid;
+    border-width: 0px 0px 0px 2px;
+    border-color:#d33737;
+    padding-left: 50px;
+}
+
+.btn-ajout {
+    background-color: #fff;
+    border-radius:0px;
+    width: 100%;
+    border-color: #d33737;
+    color: #d33737;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-ajout:hover {
+    background-color: #d33737;
+    border-radius:0px;
+    width: 100%;
+    border-color: #d33737;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.page-produit {
+    margin-bottom: 30px;
+}
+
+.txt-retour-accueil {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #d33737;
+    outline: none;
+    text-decoration: none;
+}
+
+.txt-retour-accueil:hover {
+    color: #2a2a2a;
+}
+
+.bloc-retour-accueil {
+    padding-bottom: 10px;
+}
+
+.liste-deroulante {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
+.pictos-produit {
+    margin-top: 20px;
+}
+
+.picto-rouge {
+    color:#d33737
+}
+
+.prix {
+    color: #d33737;
+    font-weight: 700;
 }

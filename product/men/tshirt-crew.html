@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="stylesheet" href="../../styles/products.css">
 
+    <script defer src="../../js/all.min.js"></script>
+
     <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
 
   </head>
@@ -37,18 +39,12 @@
                 </div>
 
                 <div class="col-lg-1 col-sm-4 pages-menu">
-                    <a class="menu-link" href="index.html">Contact</a>
+                    <a class="menu-link" href="../../contact.html">Contact</a>
                 </div>
 
-                <div class="col-lg-1 col-sm-4 pages-menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-bag-check-fill" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
+                <div class="col-lg-1 col-sm-4 icon-menu">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
                 </div>
 
             </div>
@@ -59,66 +55,79 @@
 
 <main>
         
-    <!--PRODUITS-->
+    <!--PRODUIT-->
     
         <div>
-    
-    <!--GRILLE DE PRODUITS HOMMES-->
-    
-            <div class="container grille-produits">
+
+            <div class="container page-produit">
                 <div class="row align-items-center h-100">
     
-        <!--3 PRODUITS HOMMES-->
+        <!--CHEMIN HAUT DE PAGE-->
+    
+                    <div class="bloc-retour-accueil">
+                        <a href="../../index.html" class="txt-retour-accueil"><i class="fa-solid fa-house"></i> retour à l'accueil</a>
+                    </div>
     
                     <div class="col-lg-12 p-name">
                         <h2>Hommes <span class="HFE-separator">> </span>T-shirt "Crew"</h2>
                     </div> 
     
-                <!--PRODUIT 1 HOMMES-->
+                <!--PHOTO ARTICLE-->
     
                     <div class="col-lg-8 col-md-12 col-sm-12">
                         <div class="p-produit">
                             <div class="photo-produit">
-                                <a href="product/men/tshirt-crew.html"><img class="img-fluid zoom" src="images/shop-greyshirt.jpg"></a>
-                            </div>
-                            <div class="titre-produit">
-                                <a class="produit-link" href="product/men/tshirt-crew.html">T-shirt gris "Crew"</a>                       
-                                    <div class="tailles">
-                                        <div class="taille">XS</div>
-                                        <div class="taille">S</div>
-                                        <div class="taille">M</div>
-                                        <div class="taille">L</div>
-                                        <div class="taille">XL</div>
-                                        <div class="taille">XXL</div>
-                                    </div>
-                                <a href="product/men/tshirt-crew.html"><button type="button" class="btn btn-dark">39,99€</button></a>
+                                <img class="img-fluid" src="../../images/shop-greyshirt.jpg">
                             </div>
                         </div>
                     </div>
     
-                <!--PRODUIT 2 HOMMES-->
+                <!--BLOC DE DROITE-->
     
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="produit">
-                            <div class="photo-produit">
-                                <a href="product/men/veste-shankly.html"><img class="img-fluid zoom" src="images/shop-shankly.jpg"></a>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="produit">
+                        <div class="bloc-droite">
+                            <div class="descriptif">
+                                <h3>T-shirt gris "Crew"</h3>
+                                <h4 class="prix">39,99€</h4><br>
+                                <p>Refresh your wardrobe this season with the LFC Lifestyle range. This casual range makes showing your support subtle and comfortable with a sleek design.</p>
+
+                                <ul>
+                                    <li>Crew neck short sleeve t shirt</li>
+                                    <li>Ribbed neck and cuff tipping detail and Liverbird embroidery to left chest</li>
+                                    <li>200 GSM jersey with peached finish for soft feel</li>
+                                </ul>
+
+                                <p>100% COTTON<br>
+                                Code produit: A22GL03</p>
                             </div>
-                            <div class="titre-produit">
-                                <a class="produit-link" href="product/men/veste-shankly.html">T-shirt gris "Crew"</a>                       
-                                    <div class="tailles">
-                                        <div class="taille">S</div>
-                                        <div class="taille">M</div>
-                                        <div class="taille">L</div>
-                                        <div class="taille">XL</div>
-                                    </div>
-                                <a href="product/men/veste-shankly.html"><button type="button" class="btn btn-dark">59,99€</button></a>
+
+                            <div class="liste-deroulante">
+                                <select required class="form-select" aria-label="Taille">
+                                    <option selected>Choisir une taille...</option>
+                                    <option value="1">XS</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="3">XL</option>
+                                    <option value="3">XXL</option>
+                                  </select>
                             </div>
+
+                            <a href="#"><button type="button" class="btn btn-ajout">Ajouter au panier</button></a>
+                            
+                            <div class="pictos-produit">
+                                <p><span class="picto-rouge"><i class="fa-solid fa-truck-fast"></i></span> Livraison sous 5 jours ouvrés.</p>
+                                <p><span class="picto-rouge"><i class="fa-solid fa-rotate-left"></i></span> Retour ou échange gratuit sous 30 jours.</p>
+                            </div>
+
                         </div>
                     </div>
-                
                 </div>
-        </div>
+            
+            </div>
     </div>
+</div>
 
 </main>
 
