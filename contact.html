@@ -52,23 +52,90 @@
 
 <!--CORPS DE LA PAGE-->
 
-    <main>
+<main>
 
-<!--BANDEAU PHOTO ENTETE-->
+    <div class="container bloc-contact">
 
-        <div class="container entete">
-            <div class="row align-items-center h-100">
-                <div class="col-lg-12">
-                    <div class="titre-collection">
-                        <h1 id="s22">Saison <span class="HFE-separator">2022/2023</span></h1>
-                        <p id="accroche">Notre sélection de produits pour supporter les Reds cette saison<br><b>N'hésitez plus ! Arborez fièrement nos couleurs.</b></p>
+        <!--ENTETE-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Nous contacter</h2>
+
+        <p class="text-center w-responsive mx-auto mb-5">Pour toute question ou réclamation, utilisez le formulaire ci-dessous.</p>
+
+        <!--FORMULAIRE-->
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">Nom</label>
+                                <input type="text" id="nom" name="name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Adresse mail</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Sujet</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Votre message</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary btn-envoi">Envoyer</a>
                 </div>
             </div>
+
+            <!--SIDEBAR-->
+
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>10 place du Jeu de Ballon,<br>
+                            30000 NIMES, France</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 33 605 12 48 50</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>contact@redshop.fr</p>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-    
-                        
-    </main>
+
+    </div>
+
+</main>
 
 <!--FOOTER-->
 

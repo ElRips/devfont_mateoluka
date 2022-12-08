@@ -72,3 +72,14 @@
     color: #d33737;
     font-weight: 700;
 }
+
+.bloc-quantite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+
+.titre-quantite {
+    margin-right: 20px;
+}

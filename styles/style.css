@@ -239,3 +239,30 @@ b {
     font-weight: 500;
     text-transform:uppercase;
 }
+
+.btn-envoi {
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius:0px;
+    width: 25%;
+    border-color: #d33737;
+    color: #d33737;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-envoi:hover {
+    background-color: #d33737;
+    border-radius:0px;
+    width: 25%;
+    border-color: #d33737;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bloc-contact {
+    margin-bottom:50px;
+}
